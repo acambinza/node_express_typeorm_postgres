@@ -5,8 +5,14 @@
   "repository": "https://github.com/acambinza/node_express_typeorm_postgres.git",
   "author": "Anselmo JC Cambinza <36536634+acambinza@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts"
+  },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.41"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
