@@ -1,6 +1,4 @@
 import { Request, Response } from 'express';
-import { join } from 'path/posix';
-import { json } from 'stream/consumers';
 import { UpdateCategoryService } from '../services/UpdateCategoryService';
 
 export class UpdateCategoryController {

@@ -13,3 +13,7 @@ Projecto criado com as seguintes tecnologias
 ## yarn install
 ## yarn run
 
+
+- Entities - Mapea a table que esta no DB
+- Service - Model de acessso aos dados
+- Controller - faz a manipulacao do request, instancia um service e envia um response
